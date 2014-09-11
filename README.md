@@ -4,11 +4,11 @@
 
 <h2>Modules Overview - Device Specific</h2>
 
-<h3>APP.HELPER.DEVICE.supportsTouch</h3>
+<h4>APP.HELPER.DEVICE.supportsTouch</h4>
 <p>Checks for touchevents  & msPointer event support and returns true/false. Adds CSS class 'supports-touch' if true.</p>
 <p><strong>returns boolean</strong></p>
 
-<h3>APP.HELPER.DEVICE.isIE(version)</h3>
+<h4>APP.HELPER.DEVICE.isIE(version)</h4>
 <p>Checks html tag for specified CSS class returns true false. Note: assumes conditional CSS classes have been applied to html tag.</p>
 <p><strong>param 'version' - the CSS class you want to check the existence of.</strong></p>
 <p><strong>returns - boolean</strong></p>
