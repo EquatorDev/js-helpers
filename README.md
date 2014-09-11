@@ -18,15 +18,15 @@
 <strong>param 'email'</strong> - the string you want to validate.<br /><strong>returns - boolean</strong></p>
 
 <h4>APP.HELPER.pad(number, size)</h4>
-<p>Pads out a number with zeros to a minimum length.</br><strong>param 'number'</strong> - the number you want to convert.<br /><strong>param 'size'</strong> - minimum length of return string.</br><strong>returns - string</strong></p>
+<p>Pads out a number with zeros to a minimum length.<br /><strong>param 'number'</strong> - the number you want to convert.<br /><strong>param 'size'</strong> - minimum length of return string.</br><strong>returns - string</strong></p>
 
 <h4>APP.HELPER.getHashParameter(url, paramName)</h4>
-<p>Gets the value of a hash parameter.</br><strong>param 'url'</strong> - the string from which to extract the value.<br />
+<p>Gets the value of a hash parameter.<br /><strong>param 'url'</strong> - the string from which to extract the value.<br />
 <strong>param 'paramName'</strong> - the name of the hash.</br><strong>returns - string or null</strong></p>
 
 <h4>APP.HELPER.getParamFromString(name, string)</h4>
-<p>Get the value from a name/value pair.</br><strong>param 'name'</strong> - the name of the name/value pair.<br />
+<p>Get the value from a name/value pair.<br /><strong>param 'name'</strong> - the name of the name/value pair.<br />
 <strong>param 'string'</strong> - the string from which to extract the value.</br><strong>returns - string or null</strong></p>
 
 <h4>APP.HELPER.shuffleArray(array)</h4>
-<p>Shuffles the order of an Array.<br /><strong>param 'array'</strong> - The array you want to shuffle.</br><strong>returns - shuffled array</strong></p>
+<p>Shuffles the order of an Array.<br /><strong>param 'array'</strong> - The array you want to shuffle.<br /><strong>returns - shuffled array</strong></p>
