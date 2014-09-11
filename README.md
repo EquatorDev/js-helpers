@@ -9,7 +9,7 @@
 </br><strong>returns boolean</strong></p>
 
 <h4>APP.HELPER.DEVICE.isIE(version)</h4>
-<p>Checks html tag for specified CSS class returns true false. Note: assumes conditional CSS classes have been applied to html tag.</br><strong>param 'version'</strong> - the CSS class you want to check the existence of.</br><strong>returns - boolean</strong></p>
+<p>Checks html tag for specified CSS class returns true false. Note: assumes conditional CSS classes have been applied to html tag.<br /><strong>param 'version'</strong> - the CSS class you want to check the existence of.</br><strong>returns - boolean</strong></p>
 
 <h2>Modules Overview - General</h2>
 
