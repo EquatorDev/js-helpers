@@ -5,39 +5,31 @@
 <h2>Modules Overview - Device Specific</h2>
 
 <h4>APP.HELPER.DEVICE.supportsTouch</h4>
-<p>Checks for touchevents  & msPointer event support and returns true/false. Adds CSS class 'supports-touch' if true.</p>
-<p><strong>returns boolean</strong></p>
+<p>Checks for touchevents  & msPointer event support and returns true/false. Adds CSS class 'supports-touch' if true.
+</br><strong>returns boolean</strong></p>
 
 <h4>APP.HELPER.DEVICE.isIE(version)</h4>
-<p>Checks html tag for specified CSS class returns true false. Note: assumes conditional CSS classes have been applied to html tag.</p>
-<p><strong>param 'version' - the CSS class you want to check the existence of.</strong></p>
-<p><strong>returns - boolean</strong></p>
+<p>Checks html tag for specified CSS class returns true false. Note: assumes conditional CSS classes have been applied to html tag.</br><strong>param 'version'</strong> - the CSS class you want to check the existence of.</br><strong>returns - boolean</strong></p>
 
 <h2>Modules Overview - General</h2>
 
 <h4>APP.HELPER.isEmail(email)</h4>
-<p>Validates a string as a valid email</p>
-<p><strong>param 'email' - the string you want to validate.</strong></p>
-<p><strong>returns - boolean</strong></p>
+<p>Validates a string as a valid email</br>
+<p><strong>param 'email'</strong> - the string you want to validate.</br><strong>returns - boolean</strong></p>
 
 <h4>APP.HELPER.pad(number, size)</h4>
 <p>Pads out a number with zeros to a minimum length.</p>
-<p><strong>param 'number' - the number you want to convert.</br>param 'size' - minimum length of return string.</strong></p>
-<p><strong>returns - string</strong></p>
+<p><strong>param 'number'</strong> - the number you want to convert.</br>param 'size' - minimum length of return string.</br><strong>returns - string</strong></p>
 
 <h4>APP.HELPER.getHashParameter(url, paramName)</h4>
-<p>Gets the value of a hash parameter.</p>
-<p><strong>param 'url' - the string from which to extract the value.</br>
-param 'paramName' - the name of the hash.</strong></p>
-<p><strong>returns - string or null</strong></p>
+<p>Gets the value of a hash parameter.</br><strong>param 'url'</strong> - the string from which to extract the value.</br>
+<strong>param 'paramName'</strong> - the name of the hash.</br><strong>returns - string or null</strong></p>
 
 <h4>APP.HELPER.getParamFromString(name, string)</h4>
 <p>Get the value from a name/value pair.</p>
-<p><strong>param 'name' - the name of the name/value pair.</br>
-param 'string' - the string from which to extract the value.</strong></p>
-<p><strong>returns - string or null</strong></p>
+<p><strong>param 'name'</strong> - the name of the name/value pair.</br>
+<strong>param 'string'</strong> - the string from which to extract the value.</br><strong>returns - string or null</strong></p>
 
 <h4>APP.HELPER.shuffleArray(array)</h4>
 <p>Shuffles the order of an Array.</p>
-<p><strong>param 'array' - The array you want to shuffle.</strong></p>
-<p><strong>returns - shuffled array</strong></p>
+<p><strong>param 'array'</strong> - The array you want to shuffle.</br><strong>returns - shuffled array</strong></p>
