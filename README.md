@@ -15,29 +15,29 @@
 
 <h2>Modules Overview - General</h2>
 
-<h3>APP.HELPER.isEmail(email)</h3>
+<h4>APP.HELPER.isEmail(email)</h4>
 <p>Validates a string as a valid email</p>
 <p><strong>param 'email' - the string you want to validate.</strong></p>
 <p><strong>returns - boolean</strong></p>
 
-<h3>APP.HELPER.pad(number, size)</h3>
+<h4>APP.HELPER.pad(number, size)</h4>
 <p>Pads out a number with zeros to a minimum length.</p>
 <p><strong>param 'number' - the number you want to convert.</br>param 'size' - minimum length of return string.</strong></p>
 <p><strong>returns - string</strong></p>
 
-<h3>APP.HELPER.getHashParameter(url, paramName)</h3>
+<h4>APP.HELPER.getHashParameter(url, paramName)</h4>
 <p>Gets the value of a hash parameter.</p>
 <p><strong>param 'url' - the string from which to extract the value.</br>
 param 'paramName' - the name of the hash.</strong></p>
 <p><strong>returns - string or null</strong></p>
 
-<h3>APP.HELPER.getParamFromString(name, string)</h3>
+<h4>APP.HELPER.getParamFromString(name, string)</h4>
 <p>Get the value from a name/value pair.</p>
 <p><strong>param 'name' - the name of the name/value pair.</br>
 param 'string' - the string from which to extract the value.</strong></p>
 <p><strong>returns - string or null</strong></p>
 
-<h3>APP.HELPER.shuffleArray(array)</h3>
+<h4>APP.HELPER.shuffleArray(array)</h4>
 <p>Shuffles the order of an Array.</p>
 <p><strong>param 'array' - The array you want to shuffle.</strong></p>
 <p><strong>returns - shuffled array</strong></p>
