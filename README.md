@@ -8,7 +8,8 @@
 <p>Checks for touchevents  & msPointer event support and returns true/false. Adds CSS class 'supports-touch' if true.
 </br><strong>returns boolean</strong></p></dd>
 </dl>
-<h3>APP.HELPER.DEVICE.isIE(version)</dt><dd>
+<dl>
+<dt>APP.HELPER.DEVICE.isIE(version)</dt><dd>
 <p>Checks html tag for specified CSS class returns true false. Note: assumes conditional CSS classes have been applied to html tag.<br /><strong>param 'version'</strong> - the CSS class you want to check the existence of.<br /><strong>returns - boolean</strong></p>
 </dd>
 </dl>
