@@ -43,3 +43,13 @@
 <p>Shuffles the order of an Array.<br /><strong>param 'array'</strong> - The array you want to shuffle.<br /><strong>returns - shuffled array</strong></p>
 </dd>
 </dl>
+<dl>
+<dt>APP.HELPER.supportsList</dt><dd>
+<p>Cached list of all CSS properties checked with APP.HELPERS.supports, including items that returned false on a check.</p>
+</dd>
+</dl>
+<dl>
+<dt>APP.HELPER.supports(prop)</dt><dd>
+<p>checks to see if the browsers supports a certain css property.<br /><strong>param 'prop'</strong> - The property you want to check against the browser<br /><strong>returns - boolean indicating support</strong></p>
+</dd>
+</dl>
