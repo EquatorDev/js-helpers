@@ -113,6 +113,53 @@ window.APP = (function (module, $) {
             }
             return array;
         };
+        
+        /**
+          * @desc dependency for 'supports' function
+        */
+        _.supportsList = {};
+        
+        
+        _.supports = function(prop) {
+        
+            if(_.supportsList[prop] == true || _.supportsList[prop] == false) {
+                return _.supportsList[prop];
+            }
+        
+            var div = document.createElement('div'),
+                vendors = 'khtml ms o moz webkit'.split(' '), 
+                len = vendors.length,
+                propOriginal = prop,
+                propFirstLetterLC = prop.replace(/^[A-Z]/, function(val) {
+                    return val.toLowerCase();
+                }),
+                propFirstLetterUC = prop.replace(/^[a-z]/, function(val) {
+                    return val.toUpperCase();
+                }),
+                isSupported = false;
+        
+            if (propOriginal in div.style) {
+                _.supportsList[propOriginal] = true;
+                isSupported = true;
+            }
+            if (propFirstLetterLC in div.style) {
+                _.supportsList[propFirstLetterLC] = true;
+                isSupported = true;
+            }
+        
+            while(len--) {
+                if ( vendors[len] + propFirstLetterUC in div.style ) {
+                    _.supportsList[vendors[len] + propFirstLetterUC] = true;
+                    isSupported = true;
+                    break;
+                }
+            }
+        
+            if(isSupported === false) {
+                _.supportsList[propOriginal] = false;
+            }
+            return isSupported;
+        }
     
         return submodule;
 
