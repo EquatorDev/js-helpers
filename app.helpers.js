@@ -119,7 +119,11 @@ window.APP = (function (module, $) {
         */
         _.supportsList = {};
         
-        
+        /**
+          * @desc checks to see if the browser supports a certain css property
+          * @param prop - The property you want to check against the browser
+          * @return boolean indicating support
+        */
         _.supports = function(prop) {
         
             if(_.supportsList[prop] == true || _.supportsList[prop] == false) {
