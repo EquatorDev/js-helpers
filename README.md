@@ -50,6 +50,6 @@
 </dl>
 <dl>
 <dt>APP.HELPER.supports(prop)</dt><dd>
-<p>checks to see if the browsers supports a certain css property.<br /><strong>param 'prop'</strong> - The property you want to check against the browser<br /><strong>returns - boolean indicating support</strong></p>
+<p>checks to see if the browser supports a certain css property.<br /><strong>param 'prop'</strong> - The property you want to check against the browser<br /><strong>returns - boolean indicating support</strong></p>
 </dd>
 </dl>
